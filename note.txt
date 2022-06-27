@@ -1,0 +1,45 @@
+Data type in javascript:
+dynamic data type:
+javascript supports dynamic data type because depending on the value of variable js determines what type of data it is. Thats why it is also called  dynamicaly programming langugage.
+
+Primitive and non primitive data types:
+there are 6 primitive data types and one known non-primitive data type we know so far that is object.
+the main difference is that if we change one object the change will be reflected to other because they both have same refernce. 
+but this is not the case with primitive data types;
+
+Falsy and truthy:
+
+falsy:
+false
+0 is falsy value;
+empty string is falsy;
+undefined;
+not a number;NAN;
+
+
+
+-----------------
+
+truthy:
+true
+any number positive or negative is truthy
+string is truthy;
+any string including single whitespace,'0';
+empty array is truthy;
+empty object is also truthy;
+anything else that is not falsy will be truthy
+
+undefined vs null:
+
+ undefined:
+  1) varaible value not assigned;
+  2) function but did not write return;
+  3) just wrote return but does not return anything
+  4)parameter that isnt passed;
+  5)property that doesnot exist in an object;
+  6)accessing array element out of range;
+  7)accessing deleted element in an array;
+  8)explicitly set value to undefined;
+
+  null:
+  1) expilicitly set a value to null;
